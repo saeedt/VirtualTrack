@@ -44,8 +44,8 @@ function dispres() {
 	$('#start').prop('disabled', false);
 	document.getElementById('start').innerText = 'Repeat the race!';
 	document.getElementById('start').onclick = repeatRace;
-	$('#results').append("<h4>Results</h4>10' Checkpoit Time : "+result.t1.toFixed(3)
-	+" Sec.</br>13' Checkpoit Time : "+result.t2.toFixed(3)+" Sec.");
+	$('#results').append("<h4>Results</h4>10' Checkpoint Time : "+result.t1.toFixed(3)
+	+" Sec.</br>13' Checkpoint Time : "+result.t2.toFixed(3)+" Sec.");
 	}
 
 function repeatRace() {	
