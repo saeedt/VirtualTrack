@@ -17,6 +17,7 @@ function configure() {
 		activeCar = this.value;
 		$('#p3').html("");
 		$('#p2').html("");
+		$('#results').html("");
 		$('#p2').append('<h4>Car Information</h4>Car Name: '+cars[this.value].name
 				+'<br> Weight: '+cars[this.value].weight+'g');	
 		$(".kart").hide();
