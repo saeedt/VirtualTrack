@@ -72,7 +72,7 @@ var cars = {
 			s2:0.00909065454189083
 		},
 		'porsche': {
-			name: 'Prsche 993 GT2',
+			name: 'Porsche 993 GT2',
 			weight:29,
 			m1:1.0374,
 			s1:0.0054626001134991,
